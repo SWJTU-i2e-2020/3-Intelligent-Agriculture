@@ -113,11 +113,11 @@ int sensorpin2 = A2;
 void setup() 
 {
 
-  Serial.begin(9600);
-  pinMode(sensorpin,INPUT);
-  pinMode(sensorpin2,INPUT);
-  pinMode(pumpin,OUTPUT);
-  digitalWrite(pumpin,HIGH);//水泵关闭
+    Serial.begin(9600);
+    pinMode(sensorpin,INPUT);
+    pinMode(sensorpin2,INPUT);
+    pinMode(pumpin,OUTPUT);
+    digitalWrite(pumpin,HIGH);//水泵关闭
   
 }
 
